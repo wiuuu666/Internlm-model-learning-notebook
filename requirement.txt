@@ -1,0 +1,18 @@
+#升级pip
+python -m pip install --upgrade pip
+
+#pytorch==2.0.1 基础框架
+pip install pytorch==2.0.1
+
+#其它必要库(模型下载或者UI设计streamlit)
+pip install modelscope==1.9.5
+pip install transformers==4.35.2
+pip install streamlit==1.24.0
+pip install sentencepiece==0.1.99
+pip install accelerate==0.24.1
+
+#专业的LLM智能体框架
+pip install lagent
+
+#其它必要库
+pip install transformers==4.33.1 timm==0.4.12 sentencepiece==0.1.99 gradio==3.44.4 markdown2==2.4.10 xlsxwriter==3.1.2 einops accelerate
