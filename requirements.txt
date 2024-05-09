@@ -5,6 +5,3 @@ einops
 accelerate
 tiktoken
 torth==2.0.1
-torchvision==0.9.0 
-torchaudio==0.8.0 
-cudatoolkit=11.1
