@@ -4,4 +4,4 @@ sentencepiece
 einops
 accelerate
 tiktoken
-torth==2.0.1
+
