@@ -4,7 +4,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
 
 # download internlm2 to the base_path directory using git tool
-base_path = '.kk1234/self-awareness'
+base_path = '.self-awareness'
 os.system(f'git clone https://code.openxlab.org.cn/kk1234/self-awareness.git {base_path}')
 os.system(f'cd {base_path} && git lfs pull')
 
