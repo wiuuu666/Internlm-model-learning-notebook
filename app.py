@@ -4,7 +4,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
 
 # download internlm2 to the base_path directory using git tool
-base_path = '.niuma-self-model'
+base_path = '.wiuuu/niuma-self-model'
 os.system(f'git clone git@code.openxlab.org.cn:wiuuu/niuma-self-model.git {base_path}')
 os.system(f'cd {base_path} && git lfs pull')
 
